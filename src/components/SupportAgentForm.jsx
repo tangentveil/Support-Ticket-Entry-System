@@ -48,7 +48,7 @@ const SupportAgentForm = () => {
 
     // If there are validation errors, prevent form submission
     if (emailError || phoneError) {
-      alert("Check Entered Email and Phone Number");
+      alert(errors);
       return;
     }
 
